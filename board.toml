@@ -19,7 +19,7 @@ kit = "oneplus13t"
 fetch = ["AppleLogo", "KernelCache", "DeviceTree", "StaticTrustCache", "Cryptex1,SystemTrustCache"]
 
 [components]
-include = ["ArmDTPlatform", "ArmCpu", "SoftwareAES", "XnuPrelink", "DarwinBoot", "Sm8750Platform", "GopFramebuffer", "BootProgress", "ShengPlatformPower", "NativeUfs", "NativeVirtioBlock", "NativeRamBlock", "PaganiVerifiedRoot", "NativeMobileDisplay", "Stage7Probe", "NativeKeyStoreEvents", "PaganiInput", "PaganiPanel"]
+include = ["ArmDTPlatform", "ArmCpu", "SoftwareAES", "XnuPrelink", "DarwinBoot", "Sm8750Platform", "GopFramebuffer", "BootProgress", "ShengPlatformPower", "NativeUfs", "NativeVirtioBlock", "NativeRamBlock", "PaganiVerifiedRoot", "NativeMobileDisplay", "Stage7Probe", "NativeKeyStoreEvents", "PaganiInput", "PaganiPanel", "Adreno830", "AdrenoMetal"]
 
 [kernel]
 defconfig = "piano_defconfig"
